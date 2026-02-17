@@ -4,6 +4,14 @@ body {
   margin: 40px;
   color: #333;
 }
+main {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
 header {
   text-align: center;
@@ -17,6 +25,28 @@ h1 {
 h2 {
   margin-top: 25px;
   color: #444;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #2a5298;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
 }
 
 ol {
